@@ -3,7 +3,7 @@ module.exports = {
     title: `Gatsby Starter Blog`,
     author: `Kyle Mathews`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://gat-start-jan10.netlify.com/`,
     social: {
       twitter: `kylemathews`,
     },
@@ -30,6 +30,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
+              withWebp: true,
               maxWidth: 590,
             },
           },
